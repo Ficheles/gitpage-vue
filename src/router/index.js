@@ -9,7 +9,6 @@ export default new Router({
   },
   routes: [
     // Dashboards
-
     {
       path: '/',
       name: 'analytics',
@@ -17,7 +16,6 @@ export default new Router({
     },
 
     // Pages
-
     {
       path: '/pages/login-boxed',
       name: 'login-boxed',
@@ -38,7 +36,6 @@ export default new Router({
     },
 
     // Elements
-
     {
       path: '/elements/buttons-standard',
       name: 'buttons-standard',
@@ -81,7 +78,6 @@ export default new Router({
     },
 
     // Components
-
     {
       path: '/components/tabs',
       name: 'tabs',
@@ -124,7 +120,6 @@ export default new Router({
     },
 
     // Tables
-
     {
       path: '/tables/regular-tables',
       name: 'regular-tables',
@@ -132,7 +127,6 @@ export default new Router({
     },
 
     // Dashboard Widgets
-
     {
       path: '/widgets/chart-boxes-3',
       name: 'chart-boxes-3',
@@ -140,7 +134,6 @@ export default new Router({
     },
 
     // Forms
-
     {
       path: '/forms/controls',
       name: 'controls',
@@ -151,8 +144,8 @@ export default new Router({
       name: 'layouts',
       component: () => import('../DemoPages/Forms/Elements/Layouts.vue'),
     },
-    // Charts
 
+    // Charts
     {
       path: '/charts/chartjs',
       name: 'chartjs',

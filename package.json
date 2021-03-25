@@ -38,7 +38,7 @@
     "pe7-icon": "^1.0.4",
     "prettier": "^2.2.1",
     "sass": "^1.32.8",
-    "sass-loader": "10.1.1",
+    "sass-loader": "^10.1.1",
     "vue-eslint-parser": "^7.6.0",
     "vue-template-compiler": "^2.6.11"
   },

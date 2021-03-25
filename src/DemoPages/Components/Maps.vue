@@ -7,8 +7,8 @@
         <div id="maps-root">
           <google-map :center="center" :zoom="7" style="width: 100%; height: 500px">
             <google-marker
-              v-for="(m, i) in markers"
-              :key="i"
+              v-for="(m, index) in markers"
+              :key="index"
               :position="m.position"
               :clickable="true"
               :draggable="true"

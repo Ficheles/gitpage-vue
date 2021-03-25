@@ -71,8 +71,8 @@
                       <div class="widget-numbers text-primary">
                         <span class="count-up-wrapper">
                           <ICountUp
-                            :startVal="startVal"
-                            :endVal="endVal"
+                            :start-val="startVal"
+                            :end-val="endVal"
                             :decimals="decimals"
                             :duration="duration"
                             :options="options"
@@ -176,7 +176,7 @@
                   <div class="widget-content-wrapper">
                     <div class="widget-content-left mr-2">
                       <div class="custom-checkbox custom-control">
-                        <input type="checkbox" id="exampleCustomCheckbox12" class="custom-control-input" /><label
+                        <input id="exampleCustomCheckbox12" type="checkbox" class="custom-control-input" /><label
                           class="custom-control-label"
                           for="exampleCustomCheckbox12"
                           >&nbsp;</label
@@ -207,7 +207,7 @@
                   <div class="widget-content-wrapper">
                     <div class="widget-content-left mr-2">
                       <div class="custom-checkbox custom-control">
-                        <input type="checkbox" id="exampleCustomCheckbox1" class="custom-control-input" /><label
+                        <input id="exampleCustomCheckbox1" type="checkbox" class="custom-control-input" /><label
                           class="custom-control-label"
                           for="exampleCustomCheckbox1"
                           >&nbsp;</label
@@ -269,7 +269,7 @@
                   <div class="widget-content-wrapper">
                     <div class="widget-content-left mr-2">
                       <div class="custom-checkbox custom-control">
-                        <input type="checkbox" id="exampleCustomCheckbox4" class="custom-control-input" /><label
+                        <input id="exampleCustomCheckbox4" type="checkbox" class="custom-control-input" /><label
                           class="custom-control-label"
                           for="exampleCustomCheckbox4"
                           >&nbsp;</label
@@ -297,7 +297,7 @@
                   <div class="widget-content-wrapper">
                     <div class="widget-content-left mr-2">
                       <div class="custom-checkbox custom-control">
-                        <input type="checkbox" id="exampleCustomCheckbox2" class="custom-control-input" /><label
+                        <input id="exampleCustomCheckbox2" type="checkbox" class="custom-control-input" /><label
                           class="custom-control-label"
                           for="exampleCustomCheckbox2"
                           >&nbsp;</label
@@ -330,7 +330,7 @@
                   <div class="widget-content-wrapper">
                     <div class="widget-content-left mr-2">
                       <div class="custom-checkbox custom-control">
-                        <input type="checkbox" id="exampleCustomCheckbox3" class="custom-control-input" /><label
+                        <input id="exampleCustomCheckbox3" type="checkbox" class="custom-control-input" /><label
                           class="custom-control-label"
                           for="exampleCustomCheckbox3"
                           >&nbsp;</label

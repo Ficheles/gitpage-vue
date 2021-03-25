@@ -13,10 +13,10 @@
           <b-btn class="mt-4" @click="clicked">Click me</b-btn>
         </b-card>
         <b-card title="Colors" class="mb-3">
-          <div v-for="bar in bars" class="row mb-1" :key="bar.variant">
+          <div v-for="bar in bars" :key="bar.variant" class="row mb-1">
             <div class="col-sm-2">{{ bar.variant }}:</div>
             <div class="col-sm-10 pt-1">
-              <b-progress :value="bar.value" :variant="bar.variant" :key="bar.variant"></b-progress>
+              <b-progress :key="bar.variant" :value="bar.value" :variant="bar.variant"></b-progress>
             </div>
           </div>
         </b-card>
@@ -71,13 +71,6 @@ export default {
     striped: true,
     value: 75,
   }),
-
-  methods: {
-    clicked() {
-      this.counter = Math.random() * this.max
-      console.log('Change progress to ' + Math.round(this.counter * 100) / 100)
-    },
-  },
   mounted() {
     this.timer = setInterval(() => {
       this.bars.forEach(bar => (bar.value = 25 + Math.random() * 75))
@@ -86,6 +79,13 @@ export default {
   beforeDestroy() {
     clearInterval(this.timer)
     this.timer = null
+  },
+
+  methods: {
+    clicked() {
+      this.counter = Math.random() * this.max
+      console.log('Change progress to ' + Math.round(this.counter * 100) / 100)
+    },
   },
 }
 </script>

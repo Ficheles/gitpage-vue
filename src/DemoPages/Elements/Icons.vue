@@ -307,13 +307,13 @@
             </b-col>
             <b-col md="2">
               <div class="font-icon-wrapper text-danger">
-                <font-awesome-icon icon="spinner" spin fixedWidth size="4x" />
+                <font-awesome-icon icon="spinner" spin fixed-width size="4x" />
                 <p>spin fixedWidth size="4x"</p>
               </div>
             </b-col>
             <b-col md="2">
               <div class="font-icon-wrapper text-info">
-                <font-awesome-icon icon="check-square" pulse fixedWidth size="4x" />
+                <font-awesome-icon icon="check-square" pulse fixed-width size="4x" />
                 <p>pulse fixedWidth size="4x"</p>
               </div>
             </b-col>

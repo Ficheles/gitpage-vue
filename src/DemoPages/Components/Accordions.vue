@@ -35,8 +35,7 @@
         </b-card>
       </b-col>
       <b-col md="6">
-        <!-- // eslint-disable-next-line -->
-        <template>
+        <template #default>
           <div role="tablist">
             <b-card no-body class="mb-1">
               <b-card-header v-b-toggle.accordion1 header-tag="header" class="p-1" role="tab">

@@ -198,8 +198,8 @@
               <template>
                 <div class="text-center">
                   <b-form-checkbox-group
-                    buttons
                     v-model="selected"
+                    buttons
                     name="butons1"
                     :options="options"
                   ></b-form-checkbox-group>
@@ -214,7 +214,7 @@
                   >
                   </b-form-checkbox-group>
                   <div class="divider" />
-                  <b-form-checkbox-group buttons v-model="selected" stacked :options="options"></b-form-checkbox-group>
+                  <b-form-checkbox-group v-model="selected" buttons stacked :options="options"></b-form-checkbox-group>
                 </div>
               </template>
             </div>
@@ -228,27 +228,27 @@
                 <div class="text-center">
                   <b-form-radio-group
                     id="btnradios1"
-                    buttons
                     v-model="selected2"
+                    buttons
                     :options="options2"
                     name="radiosBtnDefault"
                   />
                   <div class="divider" />
                   <b-form-radio-group
                     id="btnradios2"
+                    v-model="selected2"
                     buttons
                     button-variant="outline-primary"
                     size="lg"
-                    v-model="selected2"
                     :options="options2"
                     name="radioBtnOutline"
                   />
                   <div class="divider" />
                   <b-form-radio-group
                     id="btnradios3"
+                    v-model="selected2"
                     buttons
                     stacked
-                    v-model="selected2"
                     :options="options2"
                     name="radioBtnStacked"
                   />

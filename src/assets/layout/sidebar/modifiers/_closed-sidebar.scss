@@ -27,7 +27,7 @@
         display: none;
       }
 
-      .vsm-header {
+      .vsm--header {
         text-indent: -999em;
 
         &::before {
@@ -42,12 +42,12 @@
         }
       }
 
-      .vsm-arrow,
-      .vsm-title {
+      .vsm--arrow,
+      .vsm--title {
         display: none;
       }
 
-      .vsm-icon {
+      .vsm--icon {
         left: 50%;
         margin-left: -20px;
       }
@@ -96,12 +96,12 @@
       .v-sidebar-menu {
         padding: 0 $layout-spacer-x $layout-spacer-x;
 
-        .vsm-arrow,
-        .vsm-title {
+        .vsm--arrow,
+        .vsm--title {
           display: block;
         }
 
-        .vsm-header {
+        .vsm--header {
           text-indent: 0px;
 
           &::before {
@@ -109,12 +109,12 @@
           }
         }
 
-        .vsm-icon {
+        .vsm--icon {
           left: 5px;
           margin-left: 0;
         }
 
-        .vsm-dropdown {
+        .vsm--dropdown {
           display: block;
         }
       }

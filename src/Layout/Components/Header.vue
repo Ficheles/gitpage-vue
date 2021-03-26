@@ -14,7 +14,7 @@
         <button
           type="button"
           class="hamburger close-sidebar-btn hamburger--elastic"
-          v-bind:class="{ 'is-active': isOpen }"
+          :class="{ 'is-active': isOpen }"
           @click="toggleMobile('closed-sidebar-open')"
         >
           <span class="hamburger-box">
@@ -29,7 +29,7 @@
           class="btn-icon btn-icon-only"
           variant="primary"
           size="sm"
-          v-bind:class="{ active: isOpenMobileMenu }"
+          :class="{ active: isOpenMobileMenu }"
           @click="toggleMobile2('header-menu-open')"
         >
           <div class="btn-icon-wrapper">
@@ -57,6 +57,7 @@ export default {
     UserArea,
     'font-awesome-icon': FontAwesomeIcon,
   },
+  props: {},
 
   data() {
     return {
@@ -64,7 +65,6 @@ export default {
       isOpenMobileMenu: false,
     }
   },
-  props: {},
   methods: {
     toggleMobile(className) {
       const el = document.body

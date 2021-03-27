@@ -1,6 +1,8 @@
 module.exports = {
-  runtimeCompiler: true,
-  productionSourceMap: false,
-  publicPath: process.env.NODE_ENV === 'production' ? '/gitpage-vue/' : '/',
+  lintOnSave: process.env.NODE_ENV !== 'production',
   outputDir: 'docs',
+  productionSourceMap: false,
+  // publicPath: '/gitpage-vue/',
+  publicPath: process.env.NODE_ENV === 'production' ? '/gitpage-vue/' : '/',
+  runtimeCompiler: true,
 }

@@ -25,7 +25,7 @@
                   <b-form-input id="exampleInput2" type="password" required placeholder="Enter password...">
                   </b-form-input>
                 </b-form-group>
-                <b-form-checkbox name="check" id="exampleCheck"> Keep me logged in </b-form-checkbox>
+                <b-form-checkbox id="exampleCheck" name="check"> Keep me logged in </b-form-checkbox>
                 <div class="divider" />
                 <h6 class="mb-0">
                   No account?

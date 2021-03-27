@@ -4,9 +4,9 @@
 
     <div class="content">
       <b-card class="main-card mb-3 text-center">
-        <b-button class="mr-2" v-b-modal.modal1>Launch demo modal</b-button>
-        <b-button class="mr-2" v-b-modal.modallg variant="primary">Large modal</b-button>
-        <b-button class="mr-2" v-b-modal.modalsm variant="primary">Small modal</b-button>
+        <b-button v-b-modal.modal1 class="mr-2">Launch demo modal</b-button>
+        <b-button v-b-modal.modallg class="mr-2" variant="primary">Large modal</b-button>
+        <b-button v-b-modal.modalsm class="mr-2" variant="primary">Small modal</b-button>
       </b-card>
     </div>
   </div>

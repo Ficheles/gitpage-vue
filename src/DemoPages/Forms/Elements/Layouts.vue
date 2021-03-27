@@ -12,8 +12,8 @@
                 <div class="position-relative form-group">
                   <label for="exampleEmail11" class="">Email</label
                   ><input
-                    name="email"
                     id="exampleEmail11"
+                    name="email"
                     placeholder="with a placeholder"
                     type="email"
                     class="form-control"
@@ -24,8 +24,8 @@
                 <div class="position-relative form-group">
                   <label for="examplePassword11" class="">Password</label
                   ><input
-                    name="password"
                     id="examplePassword11"
+                    name="password"
                     placeholder="password placeholder"
                     type="password"
                     class="form-control"
@@ -35,13 +35,13 @@
             </div>
             <div class="position-relative form-group">
               <label for="exampleAddress" class="">Address</label
-              ><input name="address" id="exampleAddress" placeholder="1234 Main St" type="text" class="form-control" />
+              ><input id="exampleAddress" name="address" placeholder="1234 Main St" type="text" class="form-control" />
             </div>
             <div class="position-relative form-group">
               <label for="exampleAddress2" class="">Address 2</label
               ><input
-                name="address2"
                 id="exampleAddress2"
+                name="address2"
                 placeholder="Apartment, studio, or floor"
                 type="text"
                 class="form-control"
@@ -51,24 +51,24 @@
               <div class="col-md-6">
                 <div class="position-relative form-group">
                   <label for="exampleCity" class="">City</label
-                  ><input name="city" id="exampleCity" type="text" class="form-control" />
+                  ><input id="exampleCity" name="city" type="text" class="form-control" />
                 </div>
               </div>
               <div class="col-md-4">
                 <div class="position-relative form-group">
                   <label for="exampleState" class="">State</label
-                  ><input name="state" id="exampleState" type="text" class="form-control" />
+                  ><input id="exampleState" name="state" type="text" class="form-control" />
                 </div>
               </div>
               <div class="col-md-2">
                 <div class="position-relative form-group">
                   <label for="exampleZip" class="">Zip</label
-                  ><input name="zip" id="exampleZip" type="text" class="form-control" />
+                  ><input id="exampleZip" name="zip" type="text" class="form-control" />
                 </div>
               </div>
             </div>
             <div class="position-relative form-check">
-              <input name="check" id="exampleCheck" type="checkbox" class="form-check-input" /><label
+              <input id="exampleCheck" name="check" type="checkbox" class="form-check-input" /><label
                 for="exampleCheck"
                 class="form-check-label"
                 >Check me out</label
@@ -86,8 +86,8 @@
               <div class="mb-2 mr-sm-2 mb-sm-0 position-relative form-group">
                 <label for="exampleEmail22" class="mr-sm-2">Email</label
                 ><input
-                  name="email"
                   id="exampleEmail22"
+                  name="email"
                   placeholder="something@idk.cool"
                   type="email"
                   class="form-control"
@@ -96,8 +96,8 @@
               <div class="mb-2 mr-sm-2 mb-sm-0 position-relative form-group">
                 <label for="examplePassword22" class="mr-sm-2">Password</label
                 ><input
-                  name="password"
                   id="examplePassword22"
+                  name="password"
                   placeholder="don't tell!"
                   type="password"
                   class="form-control"
@@ -120,13 +120,13 @@
             <form class="form-inline">
               <div class="position-relative form-group">
                 <label for="exampleEmail33" class="sr-only">Email</label
-                ><input name="email" id="exampleEmail33" placeholder="Email" type="email" class="mr-2 form-control" />
+                ><input id="exampleEmail33" name="email" placeholder="Email" type="email" class="mr-2 form-control" />
               </div>
               <div class="position-relative form-group">
                 <label for="examplePassword44" class="sr-only">Password</label
                 ><input
-                  name="password"
                   id="examplePassword44"
+                  name="password"
                   placeholder="Password"
                   type="password"
                   class="mr-2 form-control"
@@ -145,8 +145,8 @@
               <label for="exampleEmail" class="col-sm-2 col-form-label">Email</label>
               <div class="col-sm-10">
                 <input
-                  name="email"
                   id="exampleEmail"
+                  name="email"
                   placeholder="with a placeholder"
                   type="email"
                   class="form-control"
@@ -157,8 +157,8 @@
               <label for="examplePassword" class="col-sm-2 col-form-label">Password</label>
               <div class="col-sm-10">
                 <input
-                  name="password"
                   id="examplePassword"
+                  name="password"
                   placeholder="password placeholder"
                   type="password"
                   class="form-control"
@@ -167,22 +167,22 @@
             </div>
             <div class="position-relative row form-group">
               <label for="exampleSelect" class="col-sm-2 col-form-label">Select</label>
-              <div class="col-sm-10"><select name="select" id="exampleSelect" class="form-control"></select></div>
+              <div class="col-sm-10"><select id="exampleSelect" name="select" class="form-control"></select></div>
             </div>
             <div class="position-relative row form-group">
               <label for="exampleSelectMulti" class="col-sm-2 col-form-label">Select Multiple</label>
               <div class="col-sm-10">
-                <select multiple="" name="selectMulti" id="exampleSelectMulti" class="form-control"></select>
+                <select id="exampleSelectMulti" multiple="" name="selectMulti" class="form-control"></select>
               </div>
             </div>
             <div class="position-relative row form-group">
               <label for="exampleText" class="col-sm-2 col-form-label">Text Area</label>
-              <div class="col-sm-10"><textarea name="text" id="exampleText" class="form-control"></textarea></div>
+              <div class="col-sm-10"><textarea id="exampleText" name="text" class="form-control"></textarea></div>
             </div>
             <div class="position-relative row form-group">
               <label for="exampleFile" class="col-sm-2 col-form-label">File</label>
               <div class="col-sm-10">
-                <input name="file" id="exampleFile" type="file" class="form-control-file" />
+                <input id="exampleFile" name="file" type="file" class="form-control-file" />
                 <small class="form-text text-muted"
                   >This is some placeholder block-level help text for the above input. It's a bit lighter and easily
                   wraps to a new line.</small

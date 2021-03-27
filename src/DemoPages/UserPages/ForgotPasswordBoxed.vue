@@ -22,7 +22,7 @@
                       <b-col md="12">
                         <b-form-group>
                           <Label for="exampleEmail">Email</Label>
-                          <b-form-input type="email" name="email" id="exampleEmail" placeholder="Email here..." />
+                          <b-form-input id="exampleEmail" type="email" name="email" placeholder="Email here..." />
                         </b-form-group>
                       </b-col>
                     </b-row>

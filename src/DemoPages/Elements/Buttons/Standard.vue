@@ -195,7 +195,7 @@
           <div class="main-card mb-3 card">
             <div class="card-body">
               <h5 class="card-title">Checkbox Buttons</h5>
-              <template>
+              <template v-if="options">
                 <div class="text-center">
                   <b-form-checkbox-group
                     v-model="selected"
@@ -224,7 +224,7 @@
           <div class="main-card mb-3 card">
             <div class="card-body">
               <h5 class="card-title">Radio Buttons</h5>
-              <template>
+              <template v-if="options2">
                 <div class="text-center">
                   <b-form-radio-group
                     id="btnradios1"

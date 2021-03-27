@@ -5,9 +5,9 @@
       <div class="card-body">
         <h5 class="card-title">Tooltips</h5>
         <div class="text-center">
-          <b-btn class="mr-2" id="exButton1" variant="primary"> Tooltip on top </b-btn>
-          <b-btn class="mr-2" id="exButton2" variant="primary"> Tooltip on right </b-btn>
-          <b-btn class="mr-2" id="exButton3" variant="primary"> Tooltip on bottom </b-btn>
+          <b-btn id="exButton1" class="mr-2" variant="primary"> Tooltip on top </b-btn>
+          <b-btn id="exButton2" class="mr-2" variant="primary"> Tooltip on right </b-btn>
+          <b-btn id="exButton3" class="mr-2" variant="primary"> Tooltip on bottom </b-btn>
           <b-btn id="exButton4" variant="primary"> Tooltip on left </b-btn>
 
           <b-tooltip target="exButton1" placement="top" title="Tooltip on top"></b-tooltip>
@@ -23,7 +23,7 @@
 
         <h5 class="my-3">Placement</h5>
         <b-row>
-          <b-col md="4" class="py-4 text-center" v-for="placement in placements" :key="placement">
+          <b-col v-for="placement in placements" :key="placement" md="4" class="py-4 text-center">
             <b-btn :id="'exPopover1-' + placement" variant="primary">
               {{ placement }}
             </b-btn>

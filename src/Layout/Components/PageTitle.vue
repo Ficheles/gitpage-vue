@@ -37,9 +37,9 @@ export default {
     'font-awesome-icon': FontAwesomeIcon,
   },
   props: {
-    icon: String,
-    heading: String,
-    subheading: String,
+    icon: { type: String, default: '' },
+    heading: { type: String, default: '' },
+    subheading: { type: String, default: '' },
   },
 }
 </script>

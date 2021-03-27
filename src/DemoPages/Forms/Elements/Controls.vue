@@ -10,8 +10,8 @@
               <div class="position-relative form-group">
                 <label for="exampleEmail" class="">Email</label
                 ><input
-                  name="email"
                   id="exampleEmail"
+                  name="email"
                   placeholder="with a placeholder"
                   type="email"
                   class="form-control"
@@ -20,8 +20,8 @@
               <div class="position-relative form-group">
                 <label for="examplePassword" class="">Password</label
                 ><input
-                  name="password"
                   id="examplePassword"
+                  name="password"
                   placeholder="password placeholder"
                   type="password"
                   class="form-control"
@@ -29,7 +29,7 @@
               </div>
               <div class="position-relative form-group">
                 <label for="exampleSelect" class="">Select</label
-                ><select name="select" id="exampleSelect" class="form-control">
+                ><select id="exampleSelect" name="select" class="form-control">
                   <option>1</option>
                   <option>2</option>
                   <option>3</option>
@@ -39,7 +39,7 @@
               </div>
               <div class="position-relative form-group">
                 <label for="exampleSelectMulti" class="">Select Multiple</label
-                ><select multiple="" name="selectMulti" id="exampleSelectMulti" class="form-control">
+                ><select id="exampleSelectMulti" multiple="" name="selectMulti" class="form-control">
                   <option>1</option>
                   <option>2</option>
                   <option>3</option>
@@ -49,11 +49,11 @@
               </div>
               <div class="position-relative form-group">
                 <label for="exampleText" class="">Text Area</label
-                ><textarea name="text" id="exampleText" class="form-control"></textarea>
+                ><textarea id="exampleText" name="text" class="form-control"></textarea>
               </div>
               <div class="position-relative form-group">
                 <label for="exampleFile" class="">File</label
-                ><input name="file" id="exampleFile" type="file" class="form-control-file" />
+                ><input id="exampleFile" name="file" type="file" class="form-control-file" />
                 <small class="form-text text-muted"
                   >This is some placeholder block-level help text for the above input. It's a bit lighter and easily
                   wraps to a new line.
@@ -126,21 +126,21 @@
               <div class="position-relative form-group">
                 <div>
                   <div class="custom-checkbox custom-control">
-                    <input type="checkbox" id="exampleCustomCheckbox" class="custom-control-input" /><label
+                    <input id="exampleCustomCheckbox" type="checkbox" class="custom-control-input" /><label
                       class="custom-control-label"
                       for="exampleCustomCheckbox"
                       >Check this custom checkbox</label
                     >
                   </div>
                   <div class="custom-checkbox custom-control">
-                    <input type="checkbox" id="exampleCustomCheckbox2" class="custom-control-input" /><label
+                    <input id="exampleCustomCheckbox2" type="checkbox" class="custom-control-input" /><label
                       class="custom-control-label"
                       for="exampleCustomCheckbox2"
                       >Or this one</label
                     >
                   </div>
                   <div class="custom-checkbox custom-control">
-                    <input type="checkbox" id="exampleCustomCheckbox3" disabled class="custom-control-input" /><label
+                    <input id="exampleCustomCheckbox3" type="checkbox" disabled class="custom-control-input" /><label
                       class="custom-control-label"
                       for="exampleCustomCheckbox3"
                       >But not this disabled one</label
@@ -156,14 +156,14 @@
               <div class="position-relative form-group">
                 <div>
                   <div class="custom-checkbox custom-control custom-control-inline">
-                    <input type="checkbox" id="exampleCustomInline" class="custom-control-input" /><label
+                    <input id="exampleCustomInline" type="checkbox" class="custom-control-input" /><label
                       class="custom-control-label"
                       for="exampleCustomInline"
                       >An inline custom input</label
                     >
                   </div>
                   <div class="custom-checkbox custom-control custom-control-inline">
-                    <input type="checkbox" id="exampleCustomInline2" class="custom-control-input" /><label
+                    <input id="exampleCustomInline2" type="checkbox" class="custom-control-input" /><label
                       class="custom-control-label"
                       for="exampleCustomInline2"
                       >and another one</label
@@ -181,7 +181,7 @@
               <div class="position-relative form-group">
                 <div>
                   <div class="custom-radio custom-control">
-                    <input type="radio" id="exampleCustomRadio" name="customRadio" class="custom-control-input" /><label
+                    <input id="exampleCustomRadio" type="radio" name="customRadio" class="custom-control-input" /><label
                       class="custom-control-label"
                       for="exampleCustomRadio"
                       >Select this custom radio</label
@@ -189,14 +189,14 @@
                   </div>
                   <div class="custom-radio custom-control">
                     <input
-                      type="radio"
                       id="exampleCustomRadio2"
+                      type="radio"
                       name="customRadio"
                       class="custom-control-input"
                     /><label class="custom-control-label" for="exampleCustomRadio2">Or this one</label>
                   </div>
                   <div class="custom-radio custom-control">
-                    <input type="radio" id="exampleCustomRadio3" disabled class="custom-control-input" /><label
+                    <input id="exampleCustomRadio3" type="radio" disabled class="custom-control-input" /><label
                       class="custom-control-label"
                       for="exampleCustomRadio3"
                       >But not this disabled one</label
@@ -213,7 +213,7 @@
                 <div class="col-md-6">
                   <div class="position-relative form-group">
                     <label for="exampleCustomSelect" class="">Custom Select</label
-                    ><select type="select" id="exampleCustomSelect" name="customSelect" class="custom-select">
+                    ><select id="exampleCustomSelect" type="select" name="customSelect" class="custom-select">
                       <option value="">Select</option>
                       <option>Value 1</option>
                       <option>Value 2</option>
@@ -225,9 +225,9 @@
                   <div class="position-relative form-group">
                     <label for="exampleCustomMutlipleSelect" class="">Custom Multiple Select</label
                     ><select
+                      id="exampleCustomMutlipleSelect"
                       multiple=""
                       type="select"
-                      id="exampleCustomMutlipleSelect"
                       name="customSelect"
                       class="custom-select"
                     >
@@ -244,8 +244,8 @@
                   <div class="position-relative form-group">
                     <label for="exampleCustomSelectDisabled" class="">Custom Select Disabled</label
                     ><select
-                      type="select"
                       id="exampleCustomSelectDisabled"
+                      type="select"
                       name="customSelect"
                       disabled
                       class="custom-select"
@@ -261,9 +261,9 @@
                   <div class="position-relative form-group">
                     <label for="exampleCustomMutlipleSelectDisabled" class="">Custom Multiple Select Disabled</label
                     ><select
+                      id="exampleCustomMutlipleSelectDisabled"
                       multiple=""
                       type="select"
-                      id="exampleCustomMutlipleSelectDisabled"
                       name="customSelect"
                       disabled
                       class="custom-select"
@@ -331,14 +331,14 @@
             <div class="card-body">
               <h5 class="card-title">Input Group Button Dropdown</h5>
               <b-input-group>
-                <b-dropdown text="Dropdown" variant="info" slot="prepend" v-for="i in 1" :key="i">
+                <b-dropdown v-for="i in 1" slot="prepend" :key="i" text="Dropdown" variant="info">
                   <b-dropdown-item>Action A</b-dropdown-item>
                   <b-dropdown-item>Action B</b-dropdown-item>
                 </b-dropdown>
 
                 <b-form-input></b-form-input>
 
-                <b-dropdown text="Dropdown" variant="outline-secondary" slot="append" v-for="i in 1" :key="i">
+                <b-dropdown v-for="i in 1" slot="append" :key="i" text="Dropdown" variant="outline-secondary">
                   <b-dropdown-item>Action C</b-dropdown-item>
                   <b-dropdown-item>Action D</b-dropdown-item>
                 </b-dropdown>
@@ -434,7 +434,7 @@
                 <b-input-group>
                   <b-form-input></b-form-input>
 
-                  <b-dropdown text="Dropdown" right variant="secondary" slot="append" v-for="i in 1" :key="i">
+                  <b-dropdown v-for="i in 1" slot="append" :key="i" text="Dropdown" right variant="secondary">
                     <b-dropdown-item>Action C</b-dropdown-item>
                     <b-dropdown-item>Action D</b-dropdown-item>
                   </b-dropdown>

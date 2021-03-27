@@ -40,7 +40,7 @@
                     </b-form-group>
                   </div>
                 </div>
-                <b-form-checkbox name="check" id="exampleCheck">
+                <b-form-checkbox id="exampleCheck" name="check">
                   Accept our <a href="javascript:void(0);">Terms and Conditions</a>.
                 </b-form-checkbox>
                 <div class="divider" />

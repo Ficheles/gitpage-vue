@@ -1,6 +1,6 @@
 <template>
   <div>
-    <page-title :heading=heading :subheading=subheading :icon=icon></page-title>
+    <page-title :heading="heading" :subheading="subheading" :icon="icon"></page-title>
     <b-row>
       <b-col md="6">
         <b-card class="main-card mb-3" title="Collapse">
@@ -9,7 +9,7 @@
             <b-card>
               <p class="card-text">Collapse contents Here</p>
               <b-btn v-b-toggle.collapse1_inner size="sm">Toggle Inner Collapse</b-btn>
-              <b-collapse id=collapse1_inner class="mt-2">
+              <b-collapse id="collapse1_inner" class="mt-2">
                 <b-card>Hello!</b-card>
               </b-collapse>
             </b-card>
@@ -51,9 +51,7 @@
               </b-card-header>
               <b-collapse id="accordion1" visible accordion="my-accordion" role="tabpanel">
                 <b-card-body>
-                  <p class="card-text">
-                    I start opened because <code>visible</code> is <code>true</code>
-                  </p>
+                  <p class="card-text">I start opened because <code>visible</code> is <code>true</code></p>
                   <p class="card-text">
                     {{ text }}
                   </p>
@@ -90,25 +88,23 @@
             </b-card>
           </div>
         </template>
-
       </b-col>
     </b-row>
   </div>
 </template>
 
 <script>
+import PageTitle from '../../Layout/Components/PageTitle.vue'
 
-  import PageTitle from "../../Layout/Components/PageTitle.vue";
-
-  export default {
-    components: {
-      PageTitle,
-    },
-    data: () => ({
-      heading: 'Accordions',
-      subheading: 'Accordions represent collapsable component with extended functionality.',
-      icon: 'pe-7s-diamond icon-gradient bg-warm-flame',
-      text: `
+export default {
+  components: {
+    PageTitle,
+  },
+  data: () => ({
+    heading: 'Accordions',
+    subheading: 'Accordions represent collapsable component with extended functionality.',
+    icon: 'pe-7s-diamond icon-gradient bg-warm-flame',
+    text: `
         Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
         richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
         brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon
@@ -117,7 +113,7 @@
         wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher
         vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic
         synth nesciunt you probably haven't heard of them accusamus labore VHS.
-      `
-    }),
-  }
+      `,
+  }),
+}
 </script>
